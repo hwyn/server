@@ -1,7 +1,7 @@
 import { __assign, __awaiter, __generator } from "tslib";
 /* eslint-disable max-len */
-import { createRegisterLoader, runtimeInjector } from '@fm/core/platform/decorator';
-import { Inject, makeDecorator, makeMethodDecorator, makePropDecorator, setInjectableDef } from '@fm/di';
+import { createRegisterLoader, runtimeInjector } from '@hwy-fm/core/platform/decorator';
+import { Inject, makeDecorator, makeMethodDecorator, makePropDecorator, setInjectableDef } from '@hwy-fm/di';
 import { Sequelize } from 'sequelize';
 import { ASSOCIATION, BELONGS_TO, BELONGS_TO_MANY, COLUMN, ENTITY, ENTITY_QUEUE, HAS_MANY, HAS_ONE, SYNC, TABLE, TRANSACTION } from './constant';
 import { EntityManager } from './entity-manager';
@@ -24,7 +24,7 @@ function transaction(_cls, _method, descriptor, options) {
         }); }); });
     };
 }
-export { forwardRef } from '@fm/di';
+export { forwardRef } from '@hwy-fm/di';
 export var Sync = makeDecorator(SYNC, function (options) { return (__assign({ force: true }, options)); });
 export var Entity = makeDecorator(ENTITY, undefined, function (type) { return registerEntity(setInjectableDef(type)); });
 export var Table = makeDecorator(TABLE, function (tableName, options) { return (__assign({ tableName: tableName }, options)); });

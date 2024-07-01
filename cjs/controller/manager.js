@@ -4,8 +4,8 @@ exports.ControllerManager = void 0;
 var tslib_1 = require("tslib");
 /* eslint-disable no-await-in-loop */
 require("./built-in/built-in.module");
-var decorator_1 = require("@fm/core/platform/decorator");
-var di_1 = require("@fm/di");
+var decorator_1 = require("@hwy-fm/core/platform/decorator");
+var di_1 = require("@hwy-fm/di");
 var constant_1 = require("./constant");
 var router_manager_1 = require("./router-manager");
 var ControllerManager = /** @class */ (function () {

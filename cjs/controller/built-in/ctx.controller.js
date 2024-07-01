@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Ctx = void 0;
 var tslib_1 = require("tslib");
-var di_1 = require("@fm/di");
-var server_1 = require("@fm/server");
+var di_1 = require("@hwy-fm/di");
+var server_1 = require("@hwy-fm/server");
 var context_1 = require("../context");
 var decorator_1 = require("../decorator");
 var Ctx = /** @class */ (function () {

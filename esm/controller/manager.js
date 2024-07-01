@@ -1,8 +1,8 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 /* eslint-disable no-await-in-loop */
 import './built-in/built-in.module';
-import { ApplicationPlugin } from '@fm/core/platform/decorator';
-import { Inject, Injector, reflectCapabilities } from '@fm/di';
+import { ApplicationPlugin } from '@hwy-fm/core/platform/decorator';
+import { Inject, Injector, reflectCapabilities } from '@hwy-fm/di';
 import { CONTROLLER_MODULE, MODULE_QUEUE } from './constant';
 import { RouterManager } from './router-manager';
 let ControllerManager = class ControllerManager {

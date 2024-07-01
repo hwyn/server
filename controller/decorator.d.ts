@@ -1,4 +1,4 @@
-import { Type } from '@fm/di';
+import { Type } from '@hwy-fm/di';
 import { RequestHandler } from 'express';
 import { hookFunc } from './context';
 import { ControllerOptions, MethodHookFunc } from './router-manager';
@@ -17,13 +17,13 @@ export declare const Delete: (url: string | string[], ...middleware: RequestHand
 export declare const Options: (url: string | string[], ...middleware: RequestHandler<import("express-serve-static-core").ParamsDictionary, any, any, import("qs").ParsedQs, Record<string, any>>[]) => MethodDecorator;
 export declare const Middleware: (...args: RequestHandler<import("express-serve-static-core").ParamsDictionary, any, any, import("qs").ParsedQs, Record<string, any>>[]) => MethodDecorator;
 export declare const makeRouteMethodDecorator: <T>(hook: MethodHookFunc) => (options?: T) => MethodDecorator;
-export declare const Ip: () => import("../../di").TargetDecorator;
-export declare const Req: () => import("../../di").TargetDecorator;
-export declare const Res: () => import("../../di").TargetDecorator;
-export declare const Next: () => import("../../di").TargetDecorator;
-export declare const Body: (key?: string) => import("../../di").TargetDecorator;
-export declare const Query: (key?: string) => import("../../di").TargetDecorator;
-export declare const Params: (key?: string) => import("../../di").TargetDecorator;
-export declare const Headers: (key?: string) => import("../../di").TargetDecorator;
-export declare const makeRouteParamsDecorator: <T>(transform: hookFunc) => (options?: T) => import("../../di").TargetDecorator;
+export declare const Ip: () => import("@hwy-fm/di").TargetDecorator;
+export declare const Req: () => import("@hwy-fm/di").TargetDecorator;
+export declare const Res: () => import("@hwy-fm/di").TargetDecorator;
+export declare const Next: () => import("@hwy-fm/di").TargetDecorator;
+export declare const Body: (key?: string) => import("@hwy-fm/di").TargetDecorator;
+export declare const Query: (key?: string) => import("@hwy-fm/di").TargetDecorator;
+export declare const Params: (key?: string) => import("@hwy-fm/di").TargetDecorator;
+export declare const Headers: (key?: string) => import("@hwy-fm/di").TargetDecorator;
+export declare const makeRouteParamsDecorator: <T>(transform: hookFunc) => (options?: T) => import("@hwy-fm/di").TargetDecorator;
 export {};

@@ -1,7 +1,7 @@
 import { __awaiter, __decorate, __metadata, __rest } from "tslib";
 /* eslint-disable no-await-in-loop */
-import { ApplicationPlugin, Input, Prov } from '@fm/core/platform/decorator';
-import { Inject, Injector } from '@fm/di';
+import { ApplicationPlugin, Input, Prov } from '@hwy-fm/core/platform/decorator';
+import { Inject, Injector } from '@hwy-fm/di';
 import { Sequelize } from 'sequelize';
 import { DATABASE, ENTITY_QUEUE } from './constant';
 import { EntityManager } from './entity-manager';

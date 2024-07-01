@@ -1,5 +1,5 @@
 import './built-in/built-in.module';
-import { Injector } from '@fm/di';
+import { Injector } from '@hwy-fm/di';
 import { RouterManager } from './router-manager';
 export declare class ControllerManager {
     injector: Injector;

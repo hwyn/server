@@ -1,4 +1,4 @@
-import { Injector } from '@fm/di';
+import { Injector } from '@hwy-fm/di';
 import { Sequelize } from 'sequelize';
 export declare class DBManager {
     injector: Injector;

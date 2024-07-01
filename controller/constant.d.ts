@@ -1,4 +1,4 @@
-import { InjectorToken } from '@fm/di';
+import { InjectorToken } from '@hwy-fm/di';
 export declare const CONTROLLER_MODULE = "ControllerModel";
 export declare const CONTROLLER = "Controller";
 export declare enum RouterParams {

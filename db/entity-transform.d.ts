@@ -1,4 +1,4 @@
-import { Injector, InjectorToken } from '@fm/di';
+import { Injector, InjectorToken } from '@hwy-fm/di';
 export declare const ENTITY_TRANSFORM: InjectorToken;
 export declare class EntityTransform {
     injector: Injector;

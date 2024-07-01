@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.RouterManager = void 0;
 var tslib_1 = require("tslib");
 /* eslint-disable no-await-in-loop */
-var di_1 = require("@fm/di");
+var di_1 = require("@hwy-fm/di");
 var express_1 = tslib_1.__importStar(require("express"));
 var lodash_1 = require("lodash");
 var constant_1 = require("./constant");

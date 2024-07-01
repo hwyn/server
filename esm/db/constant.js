@@ -1,4 +1,4 @@
-import { InjectorToken } from '@fm/di';
+import { InjectorToken } from '@hwy-fm/di';
 export const SYNC = 'Sync';
 export const TABLE = 'Table';
 export const ENTITY = 'Entity';

@@ -1,6 +1,6 @@
 import { __assign } from "tslib";
-import { createRegisterLoader } from '@fm/core/platform/decorator';
-import { makeDecorator, makeMethodDecorator, makeParamDecorator, setInjectableDef } from '@fm/di';
+import { createRegisterLoader } from '@hwy-fm/core/platform/decorator';
+import { makeDecorator, makeMethodDecorator, makeParamDecorator, setInjectableDef } from '@hwy-fm/di';
 import { CONTROLLER, CONTROLLER_MODULE, MODULE_QUEUE, RequestMethod, RouterParams } from './constant';
 var registerControlModel = createRegisterLoader(MODULE_QUEUE);
 function getCtx(req) {

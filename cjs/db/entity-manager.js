@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.EntityManager = void 0;
 var tslib_1 = require("tslib");
 /* eslint-disable no-await-in-loop */
-var platform_1 = require("@fm/core/platform");
-var di_1 = require("@fm/di");
+var platform_1 = require("@hwy-fm/core/platform");
+var di_1 = require("@hwy-fm/di");
 var lodash_1 = require("lodash");
 var sequelize_1 = require("sequelize");
 var constant_1 = require("./constant");

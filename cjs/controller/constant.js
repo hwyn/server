@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MODULE_QUEUE = exports.RequestMethod = exports.RouterParams = exports.CONTROLLER = exports.CONTROLLER_MODULE = void 0;
-var di_1 = require("@fm/di");
+var di_1 = require("@hwy-fm/di");
 exports.CONTROLLER_MODULE = 'ControllerModel';
 exports.CONTROLLER = 'Controller';
 var RouterParams;

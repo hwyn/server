@@ -1,4 +1,4 @@
-import { Injector } from '@fm/di';
+import { Injector } from '@hwy-fm/di';
 import { NextFunction, Request, Response } from 'express';
 export declare class Ctx {
     injector: Injector;

@@ -5,5 +5,5 @@ export { DataError } from './extension/data-error';
 export { ExpressServerPlatform } from './platform';
 export { Application, ApplicationPlugin, createRegisterLoader, Input, PLATFORM_SCOPE, Prov, Register, runtimeInjector } from './platform/runtime';
 export * from './token';
-export type { MetadataInfo } from '@fm/core';
-export * from '@fm/core/token';
+export type { MetadataInfo } from '@hwy-fm/core';
+export * from '@hwy-fm/core/token';

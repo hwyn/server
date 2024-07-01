@@ -3,8 +3,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.InjectEntity = exports.Transaction = exports.Convert = exports.Column = exports.PrimaryKey = exports.BelongsToMany = exports.BelongsTo = exports.HasMany = exports.HasOne = exports.Table = exports.Entity = exports.Sync = exports.forwardRef = void 0;
 var tslib_1 = require("tslib");
 /* eslint-disable max-len */
-var decorator_1 = require("@fm/core/platform/decorator");
-var di_1 = require("@fm/di");
+var decorator_1 = require("@hwy-fm/core/platform/decorator");
+var di_1 = require("@hwy-fm/di");
 var sequelize_1 = require("sequelize");
 var constant_1 = require("./constant");
 var entity_manager_1 = require("./entity-manager");
@@ -27,7 +27,7 @@ function transaction(_cls, _method, descriptor, options) {
         }); }); });
     };
 }
-var di_2 = require("@fm/di");
+var di_2 = require("@hwy-fm/di");
 Object.defineProperty(exports, "forwardRef", { enumerable: true, get: function () { return di_2.forwardRef; } });
 exports.Sync = (0, di_1.makeDecorator)(constant_1.SYNC, function (options) { return (tslib_1.__assign({ force: true }, options)); });
 exports.Entity = (0, di_1.makeDecorator)(constant_1.ENTITY, undefined, function (type) { return registerEntity((0, di_1.setInjectableDef)(type)); });

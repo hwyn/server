@@ -1,4 +1,4 @@
-import { InjectorToken } from '@fm/di';
+import { InjectorToken } from '@hwy-fm/di';
 export var SYNC = 'Sync';
 export var TABLE = 'Table';
 export var ENTITY = 'Entity';

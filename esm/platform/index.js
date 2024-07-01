@@ -1,6 +1,6 @@
 import { __awaiter } from "tslib";
-import { APPLICATION_METADATA, APPLICATION_TOKEN } from '@fm/core/token';
-import { Injector } from '@fm/di';
+import { APPLICATION_METADATA, APPLICATION_TOKEN } from '@hwy-fm/core/token';
+import { Injector } from '@hwy-fm/di';
 import express from 'express';
 import { createServer } from 'http';
 import { HTTP_SERVER } from '../token';

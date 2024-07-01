@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ExpressServerPlatform = void 0;
 var tslib_1 = require("tslib");
-var token_1 = require("@fm/core/token");
-var di_1 = require("@fm/di");
+var token_1 = require("@hwy-fm/core/token");
+var di_1 = require("@hwy-fm/di");
 var express_1 = tslib_1.__importDefault(require("express"));
 var http_1 = require("http");
 var token_2 = require("../token");

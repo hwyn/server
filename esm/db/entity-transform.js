@@ -1,5 +1,5 @@
 import { __decorate, __metadata } from "tslib";
-import { Inject, Injectable, Injector, InjectorToken } from '@fm/di';
+import { Inject, Injectable, Injector, InjectorToken } from '@hwy-fm/di';
 export const ENTITY_TRANSFORM = InjectorToken.get('ENTITY_TRANSFORM');
 let EntityTransform = class EntityTransform {
     transform(options) {

@@ -1,6 +1,6 @@
 import { __awaiter, __decorate, __metadata } from "tslib";
 /* eslint-disable no-await-in-loop */
-import { Inject, Injectable, Injector, MethodProxy, reflectCapabilities } from '@fm/di';
+import { Inject, Injectable, Injector, MethodProxy, reflectCapabilities } from '@hwy-fm/di';
 import express, { Router } from 'express';
 import { get } from 'lodash';
 import { CONTROLLER, RequestMethod } from './constant';

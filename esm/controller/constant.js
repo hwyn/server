@@ -1,4 +1,4 @@
-import { InjectorToken } from '@fm/di';
+import { InjectorToken } from '@hwy-fm/di';
 export const CONTROLLER_MODULE = 'ControllerModel';
 export const CONTROLLER = 'Controller';
 export var RouterParams;

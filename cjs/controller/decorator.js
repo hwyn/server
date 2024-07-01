@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.makeRouteParamsDecorator = exports.Headers = exports.Params = exports.Query = exports.Body = exports.Next = exports.Res = exports.Req = exports.Ip = exports.makeRouteMethodDecorator = exports.Middleware = exports.Options = exports.Delete = exports.Param = exports.Post = exports.Put = exports.Use = exports.All = exports.Get = exports.ControllerModel = exports.Controller = void 0;
 var tslib_1 = require("tslib");
-var decorator_1 = require("@fm/core/platform/decorator");
-var di_1 = require("@fm/di");
+var decorator_1 = require("@hwy-fm/core/platform/decorator");
+var di_1 = require("@hwy-fm/di");
 var constant_1 = require("./constant");
 var registerControlModel = (0, decorator_1.createRegisterLoader)(constant_1.MODULE_QUEUE);
 function getCtx(req) {

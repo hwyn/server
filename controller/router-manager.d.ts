@@ -1,4 +1,4 @@
-import { Injector, MethodProxy, Type } from '@fm/di';
+import { Injector, MethodProxy, Type } from '@hwy-fm/di';
 import { Express, NextFunction, RouterOptions } from 'express';
 import { FmContext } from './context';
 export type ControllerOptions = {
